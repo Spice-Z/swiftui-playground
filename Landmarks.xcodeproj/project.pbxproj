@@ -18,6 +18,14 @@
 		AAA37B812C9762A200C3F074 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA37B802C9762A200C3F074 /* HexagonParameters.swift */; };
 		AAA37B832C97631300C3F074 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA37B822C97631300C3F074 /* BadgeBackground.swift */; };
 		AAA37B852C9764D600C3F074 /* MyIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA37B842C9764D600C3F074 /* MyIcon.swift */; };
+		AAA37B8D2C979C4800C3F074 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA37B8C2C979C4800C3F074 /* WidgetKit.framework */; };
+		AAA37B8F2C979C4800C3F074 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA37B8E2C979C4800C3F074 /* SwiftUI.framework */; };
+		AAA37B922C979C4800C3F074 /* LinkMemoWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA37B912C979C4800C3F074 /* LinkMemoWidgetBundle.swift */; };
+		AAA37B942C979C4800C3F074 /* LinkMemoWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA37B932C979C4800C3F074 /* LinkMemoWidgetLiveActivity.swift */; };
+		AAA37B962C979C4800C3F074 /* LinkMemoWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA37B952C979C4800C3F074 /* LinkMemoWidget.swift */; };
+		AAA37B982C979C4800C3F074 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA37B972C979C4800C3F074 /* AppIntent.swift */; };
+		AAA37B9A2C979C4900C3F074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA37B992C979C4900C3F074 /* Assets.xcassets */; };
+		AAA37B9E2C979C4900C3F074 /* LinkMemoWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AAA37B8A2C979C4800C3F074 /* LinkMemoWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +43,28 @@
 			remoteGlobalIDString = AA1C39F72C9752B600D13743;
 			remoteInfo = Landmarks;
 		};
+		AAA37B9C2C979C4900C3F074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA1C39F02C9752B600D13743 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA37B892C979C4800C3F074;
+			remoteInfo = LinkMemoWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AAA37B9F2C979C4900C3F074 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AAA37B9E2C979C4900C3F074 /* LinkMemoWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AA1C39F82C9752B600D13743 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +82,15 @@
 		AAA37B802C9762A200C3F074 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		AAA37B822C97631300C3F074 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		AAA37B842C9764D600C3F074 /* MyIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIcon.swift; sourceTree = "<group>"; };
+		AAA37B8A2C979C4800C3F074 /* LinkMemoWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LinkMemoWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA37B8C2C979C4800C3F074 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		AAA37B8E2C979C4800C3F074 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		AAA37B912C979C4800C3F074 /* LinkMemoWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkMemoWidgetBundle.swift; sourceTree = "<group>"; };
+		AAA37B932C979C4800C3F074 /* LinkMemoWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkMemoWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		AAA37B952C979C4800C3F074 /* LinkMemoWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkMemoWidget.swift; sourceTree = "<group>"; };
+		AAA37B972C979C4800C3F074 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		AAA37B992C979C4900C3F074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAA37B9B2C979C4900C3F074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +115,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AAA37B872C979C4800C3F074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA37B8F2C979C4800C3F074 /* SwiftUI.framework in Frameworks */,
+				AAA37B8D2C979C4800C3F074 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,6 +133,8 @@
 				AA1C39FA2C9752B600D13743 /* Landmarks */,
 				AA1C3A0C2C9752B800D13743 /* LandmarksTests */,
 				AA1C3A162C9752B800D13743 /* LandmarksUITests */,
+				AAA37B902C979C4800C3F074 /* LinkMemoWidget */,
+				AAA37B8B2C979C4800C3F074 /* Frameworks */,
 				AA1C39F92C9752B600D13743 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +145,7 @@
 				AA1C39F82C9752B600D13743 /* Landmarks.app */,
 				AA1C3A092C9752B800D13743 /* LandmarksTests.xctest */,
 				AA1C3A132C9752B800D13743 /* LandmarksUITests.xctest */,
+				AAA37B8A2C979C4800C3F074 /* LinkMemoWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,6 +191,28 @@
 			path = LandmarksUITests;
 			sourceTree = "<group>";
 		};
+		AAA37B8B2C979C4800C3F074 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAA37B8C2C979C4800C3F074 /* WidgetKit.framework */,
+				AAA37B8E2C979C4800C3F074 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAA37B902C979C4800C3F074 /* LinkMemoWidget */ = {
+			isa = PBXGroup;
+			children = (
+				AAA37B912C979C4800C3F074 /* LinkMemoWidgetBundle.swift */,
+				AAA37B932C979C4800C3F074 /* LinkMemoWidgetLiveActivity.swift */,
+				AAA37B952C979C4800C3F074 /* LinkMemoWidget.swift */,
+				AAA37B972C979C4800C3F074 /* AppIntent.swift */,
+				AAA37B992C979C4900C3F074 /* Assets.xcassets */,
+				AAA37B9B2C979C4900C3F074 /* Info.plist */,
+			);
+			path = LinkMemoWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,10 +223,12 @@
 				AA1C39F42C9752B600D13743 /* Sources */,
 				AA1C39F52C9752B600D13743 /* Frameworks */,
 				AA1C39F62C9752B600D13743 /* Resources */,
+				AAA37B9F2C979C4900C3F074 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AAA37B9D2C979C4900C3F074 /* PBXTargetDependency */,
 			);
 			name = Landmarks;
 			productName = Landmarks;
@@ -197,6 +271,23 @@
 			productReference = AA1C3A132C9752B800D13743 /* LandmarksUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		AAA37B892C979C4800C3F074 /* LinkMemoWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA37BA22C979C4900C3F074 /* Build configuration list for PBXNativeTarget "LinkMemoWidgetExtension" */;
+			buildPhases = (
+				AAA37B862C979C4800C3F074 /* Sources */,
+				AAA37B872C979C4800C3F074 /* Frameworks */,
+				AAA37B882C979C4800C3F074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkMemoWidgetExtension;
+			productName = LinkMemoWidgetExtension;
+			productReference = AAA37B8A2C979C4800C3F074 /* LinkMemoWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -218,6 +309,9 @@
 						CreatedOnToolsVersion = 15.4;
 						TestTargetID = AA1C39F72C9752B600D13743;
 					};
+					AAA37B892C979C4800C3F074 = {
+						CreatedOnToolsVersion = 15.4;
+					};
 				};
 			};
 			buildConfigurationList = AA1C39F32C9752B600D13743 /* Build configuration list for PBXProject "Landmarks" */;
@@ -236,6 +330,7 @@
 				AA1C39F72C9752B600D13743 /* Landmarks */,
 				AA1C3A082C9752B800D13743 /* LandmarksTests */,
 				AA1C3A122C9752B800D13743 /* LandmarksUITests */,
+				AAA37B892C979C4800C3F074 /* LinkMemoWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -261,6 +356,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA37B882C979C4800C3F074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA37B9A2C979C4900C3F074 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +400,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AAA37B862C979C4800C3F074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA37B942C979C4800C3F074 /* LinkMemoWidgetLiveActivity.swift in Sources */,
+				AAA37B982C979C4800C3F074 /* AppIntent.swift in Sources */,
+				AAA37B922C979C4800C3F074 /* LinkMemoWidgetBundle.swift in Sources */,
+				AAA37B962C979C4800C3F074 /* LinkMemoWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -309,6 +423,11 @@
 			isa = PBXTargetDependency;
 			target = AA1C39F72C9752B600D13743 /* Landmarks */;
 			targetProxy = AA1C3A142C9752B800D13743 /* PBXContainerItemProxy */;
+		};
+		AAA37B9D2C979C4900C3F074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAA37B892C979C4800C3F074 /* LinkMemoWidgetExtension */;
+			targetProxy = AAA37B9C2C979C4900C3F074 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -430,6 +549,7 @@
 		AA1C3A1E2C9752B800D13743 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Landmarks/Landmarks.entitlements;
@@ -468,6 +588,7 @@
 		AA1C3A1F2C9752B800D13743 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Landmarks/Landmarks.entitlements;
@@ -593,6 +714,65 @@
 			};
 			name = Release;
 		};
+		AAA37BA02C979C4900C3F074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PQLM3W4N6D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LinkMemoWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LinkMemoWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spicx.app.Landmarks.LinkMemoWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAA37BA12C979C4900C3F074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PQLM3W4N6D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LinkMemoWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LinkMemoWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spicx.app.Landmarks.LinkMemoWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -628,6 +808,15 @@
 			buildConfigurations = (
 				AA1C3A242C9752B800D13743 /* Debug */,
 				AA1C3A252C9752B800D13743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA37BA22C979C4900C3F074 /* Build configuration list for PBXNativeTarget "LinkMemoWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA37BA02C979C4900C3F074 /* Debug */,
+				AAA37BA12C979C4900C3F074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
